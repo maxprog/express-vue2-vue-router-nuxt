@@ -1,0 +1,38 @@
+{
+    "name": "express-vue2-vue-router-nuxt",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Greg Kroczek",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run generate && node index.js",
+        "build": "nuxt build",
+        "prod": "node index.js",
+        "generate": "nuxt generate"
+    },
+    "keywords": [
+        "express.js",
+        "nuxt.js",
+        "vue.js"
+    ],
+    "dependencies": {
+        "@types/dotenv": "^4.0.1",
+        "@types/ejs": "^2.3.33",
+        "body-parser": "~1.17.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "dotenv": "^4.0.0",
+        "ejs": "^2.5.7",
+        "express": "^4.15.4",
+        "morgan": "~1.8.1",
+        "nuxt": "latest",
+        "reload": "^2.2.2",
+        "serve-favicon": "~2.4.2",
+        "vuetify": "latest"
+    },
+    "devDependencies": {
+        "@types/stylus": "^0.48.28",
+        "stylus": "latest",
+        "stylus-loader": "latest"
+    }
+}
